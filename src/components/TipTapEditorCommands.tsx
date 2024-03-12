@@ -32,7 +32,7 @@ const TipTapEditorCommands = ({ editor }: Props) => {
         disabled={!editor.can().chain().focus().toggleBold().run()}
         className='w-8 h-8'
         size='icon'
-        variant={editor.isActive('bold') ? 'white' : 'ghost'}
+        variant={editor.isActive('bold') ? 'outline' : 'ghost'}
       >
         <Bold size={18} />
       </Button>
@@ -42,7 +42,7 @@ const TipTapEditorCommands = ({ editor }: Props) => {
         disabled={!editor.can().chain().focus().toggleItalic().run()}
         className='w-8 h-8'
         size='icon'
-        variant={editor.isActive('italic') ? 'white' : 'ghost'}
+        variant={editor.isActive('italic') ? 'outline' : 'ghost'}
       >
         <Italic size={18} />
       </Button>
@@ -51,7 +51,7 @@ const TipTapEditorCommands = ({ editor }: Props) => {
         disabled={!editor.can().chain().focus().toggleStrike().run()}
         className='w-8 h-8'
         size='icon'
-        variant={editor.isActive('strike') ? 'white' : 'ghost'}
+        variant={editor.isActive('strike') ? 'outline' : 'ghost'}
       >
         <Strikethrough size={18} />
       </Button>
@@ -60,7 +60,7 @@ const TipTapEditorCommands = ({ editor }: Props) => {
         disabled={!editor.can().chain().focus().toggleCode().run()}
         className='w-8 h-8'
         size='icon'
-        variant={editor.isActive('code') ? 'white' : 'ghost'}
+        variant={editor.isActive('code') ? 'outline' : 'ghost'}
       >
         <Code size={18} />
       </Button>
@@ -68,7 +68,7 @@ const TipTapEditorCommands = ({ editor }: Props) => {
         onClick={() => editor.chain().focus().toggleHeading({ level: 1 }).run()}
         className='w-8 h-8'
         size='icon'
-        variant={editor.isActive('heading', { level: 1 }) ? 'white' : 'ghost'}
+        variant={editor.isActive('heading', { level: 1 }) ? 'outline' : 'ghost'}
       >
         <Heading1 size={18} />
       </Button>
@@ -76,7 +76,7 @@ const TipTapEditorCommands = ({ editor }: Props) => {
         onClick={() => editor.chain().focus().toggleHeading({ level: 2 }).run()}
         className='w-8 h-8'
         size='icon'
-        variant={editor.isActive('heading', { level: 2 }) ? 'white' : 'ghost'}
+        variant={editor.isActive('heading', { level: 2 }) ? 'outline' : 'ghost'}
       >
         <Heading2 size={18} />
       </Button>
@@ -84,7 +84,7 @@ const TipTapEditorCommands = ({ editor }: Props) => {
         onClick={() => editor.chain().focus().toggleHeading({ level: 3 }).run()}
         className='w-8 h-8'
         size='icon'
-        variant={editor.isActive('heading', { level: 3 }) ? 'white' : 'ghost'}
+        variant={editor.isActive('heading', { level: 3 }) ? 'outline' : 'ghost'}
       >
         <Heading3 size={18} />
       </Button>
@@ -92,7 +92,7 @@ const TipTapEditorCommands = ({ editor }: Props) => {
         onClick={() => editor.chain().focus().toggleHeading({ level: 4 }).run()}
         className='w-8 h-8'
         size='icon'
-        variant={editor.isActive('heading', { level: 4 }) ? 'white' : 'ghost'}
+        variant={editor.isActive('heading', { level: 4 }) ? 'outline' : 'ghost'}
       >
         <Heading4 size={18} />
       </Button>
@@ -100,7 +100,7 @@ const TipTapEditorCommands = ({ editor }: Props) => {
         onClick={() => editor.chain().focus().toggleHeading({ level: 5 }).run()}
         className='w-8 h-8'
         size='icon'
-        variant={editor.isActive('heading', { level: 5 }) ? 'white' : 'ghost'}
+        variant={editor.isActive('heading', { level: 5 }) ? 'outline' : 'ghost'}
       >
         <Heading5 size={18} />
       </Button>
@@ -108,7 +108,7 @@ const TipTapEditorCommands = ({ editor }: Props) => {
         onClick={() => editor.chain().focus().toggleHeading({ level: 6 }).run()}
         className='w-8 h-8'
         size='icon'
-        variant={editor.isActive('heading', { level: 6 }) ? 'white' : 'ghost'}
+        variant={editor.isActive('heading', { level: 6 }) ? 'outline' : 'ghost'}
       >
         <Heading6 size={18} />
       </Button>
@@ -116,7 +116,7 @@ const TipTapEditorCommands = ({ editor }: Props) => {
         onClick={() => editor.chain().focus().toggleBulletList().run()}
         className='w-8 h-8'
         size='icon'
-        variant={editor.isActive('bulletlist') ? 'white' : 'ghost'}
+        variant={editor.isActive('bulletlist') ? 'outline' : 'ghost'}
       >
         <List size={18} />
       </Button>
@@ -124,7 +124,7 @@ const TipTapEditorCommands = ({ editor }: Props) => {
         onClick={() => editor.chain().focus().toggleOrderedList().run()}
         className='w-8 h-8'
         size='icon'
-        variant={editor.isActive('orderedList') ? 'white' : 'ghost'}
+        variant={editor.isActive('orderedList') ? 'outline' : 'ghost'}
       >
         <ListOrdered size={18} />
       </Button>
@@ -132,7 +132,7 @@ const TipTapEditorCommands = ({ editor }: Props) => {
         onClick={() => editor.chain().focus().toggleCodeBlock().run()}
         className='w-8 h-8'
         size='icon'
-        variant={editor.isActive('codeblock') ? 'white' : 'ghost'}
+        variant={editor.isActive('codeblock') ? 'outline' : 'ghost'}
       >
         <CodepenIcon size={18} />
       </Button> */}
@@ -140,7 +140,7 @@ const TipTapEditorCommands = ({ editor }: Props) => {
         onClick={() => editor.chain().focus().toggleBlockquote().run()}
         className='w-8 h-8'
         size='icon'
-        variant={editor.isActive('blockquote') ? 'white' : 'ghost'}
+        variant={editor.isActive('blockquote') ? 'outline' : 'ghost'}
       >
         <Quote size={18} />
       </Button>

@@ -34,7 +34,7 @@ export default function Ds() {
           </Button>
           <Button variant='ghost'>Click</Button>
           <Button variant='link'>Click</Button>
-          <Button variant='outline'>Click</Button>
+          <Button variant='outline'>Czzzlick</Button>
           <Button variant='secondary'>Click</Button>
           <Button variant='accent'>Click</Button>
           <div className={buttonVariants({ variant: 'outline' })}>

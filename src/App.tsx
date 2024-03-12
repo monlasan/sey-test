@@ -27,6 +27,7 @@ function App() {
             {/* Auth */}
             <Route path='/sign-in' element={<SignIn />} />
           </Route>
+          <Route path='/ds' element={<Ds />} />
 
           <Route element={<PrivateRoute />}>
             <Route path='/dashboard' element={<Dashboard />} />
